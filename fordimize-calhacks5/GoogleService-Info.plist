@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>484477565275-7k8cbgc85q7205ju6ibcie15cne27pj1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.484477565275-7k8cbgc85q7205ju6ibcie15cne27pj1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDDHRQZX89pacG1EeU0pFMVmdmdt9jK-mE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>484477565275</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>sp.fordimize-calhacks5</string>
+	<key>PROJECT_ID</key>
+	<string>fordimize-3f611</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fordimize-3f611.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:484477565275:ios:6e8e04e1eb7a5a48</string>
+	<key>DATABASE_URL</key>
+	<string>https://fordimize-3f611.firebaseio.com</string>
+</dict>
+</plist>

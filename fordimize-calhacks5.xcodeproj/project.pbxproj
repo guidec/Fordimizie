@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E1E5A4F218EB4A100DE411A /* proxymanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E1E5A4E218EB4A100DE411A /* proxymanager.swift */; };
+		1E1E5A51218EC36700DE411A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1E1E5A50218EC36700DE411A /* GoogleService-Info.plist */; };
+		1ED0041D218EB22B00AD573E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0041C218EB22B00AD573E /* AppDelegate.swift */; };
+		1ED0041F218EB22B00AD573E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0041E218EB22B00AD573E /* ViewController.swift */; };
+		1ED00422218EB22B00AD573E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED00420218EB22B00AD573E /* Main.storyboard */; };
+		1ED00424218EB22B00AD573E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED00423218EB22B00AD573E /* Assets.xcassets */; };
+		1ED00427218EB22B00AD573E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ED00425218EB22B00AD573E /* LaunchScreen.storyboard */; };
+		A1115AA7E9C092C8B3D5DFD5 /* Pods_fordimize_calhacks5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD55204E85855C57E74ED43B /* Pods_fordimize_calhacks5.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E1E5A4E218EB4A100DE411A /* proxymanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proxymanager.swift; sourceTree = "<group>"; };
+		1E1E5A50218EC36700DE411A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1ED00419218EB22B00AD573E /* fordimize-calhacks5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fordimize-calhacks5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ED0041C218EB22B00AD573E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ED0041E218EB22B00AD573E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1ED00421218EB22B00AD573E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ED00423218EB22B00AD573E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ED00426218EB22B00AD573E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ED00428218EB22B00AD573E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99FFB213E38B9B1B056E8B7 /* Pods-fordimize-calhacks5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fordimize-calhacks5.release.xcconfig"; path = "Pods/Target Support Files/Pods-fordimize-calhacks5/Pods-fordimize-calhacks5.release.xcconfig"; sourceTree = "<group>"; };
+		DD55204E85855C57E74ED43B /* Pods_fordimize_calhacks5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fordimize_calhacks5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E2E36EED464A60BD7A41CF /* Pods-fordimize-calhacks5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fordimize-calhacks5.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fordimize-calhacks5/Pods-fordimize-calhacks5.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ED00416218EB22B00AD573E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1115AA7E9C092C8B3D5DFD5 /* Pods_fordimize_calhacks5.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ED00410218EB22B00AD573E = {
+			isa = PBXGroup;
+			children = (
+				1ED0041B218EB22B00AD573E /* fordimize-calhacks5 */,
+				1ED0041A218EB22B00AD573E /* Products */,
+				B3A2AFDD96EF282FE9B3CAB8 /* Pods */,
+				742592AE411B0D362F4164D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1ED0041A218EB22B00AD573E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ED00419218EB22B00AD573E /* fordimize-calhacks5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ED0041B218EB22B00AD573E /* fordimize-calhacks5 */ = {
+			isa = PBXGroup;
+			children = (
+				1ED0041C218EB22B00AD573E /* AppDelegate.swift */,
+				1ED0041E218EB22B00AD573E /* ViewController.swift */,
+				1E1E5A4E218EB4A100DE411A /* proxymanager.swift */,
+				1ED00420218EB22B00AD573E /* Main.storyboard */,
+				1ED00423218EB22B00AD573E /* Assets.xcassets */,
+				1ED00425218EB22B00AD573E /* LaunchScreen.storyboard */,
+				1ED00428218EB22B00AD573E /* Info.plist */,
+				1E1E5A50218EC36700DE411A /* GoogleService-Info.plist */,
+			);
+			path = "fordimize-calhacks5";
+			sourceTree = "<group>";
+		};
+		742592AE411B0D362F4164D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD55204E85855C57E74ED43B /* Pods_fordimize_calhacks5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3A2AFDD96EF282FE9B3CAB8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0E2E36EED464A60BD7A41CF /* Pods-fordimize-calhacks5.debug.xcconfig */,
+				C99FFB213E38B9B1B056E8B7 /* Pods-fordimize-calhacks5.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ED00418218EB22B00AD573E /* fordimize-calhacks5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ED0042B218EB22B00AD573E /* Build configuration list for PBXNativeTarget "fordimize-calhacks5" */;
+			buildPhases = (
+				E834EF1EF7E55A3CA1B6EC9F /* [CP] Check Pods Manifest.lock */,
+				1ED00415218EB22B00AD573E /* Sources */,
+				1ED00416218EB22B00AD573E /* Frameworks */,
+				1ED00417218EB22B00AD573E /* Resources */,
+				ACB178F501A13DECA50A16FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fordimize-calhacks5";
+			productName = "fordimize-calhacks5";
+			productReference = 1ED00419218EB22B00AD573E /* fordimize-calhacks5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ED00411218EB22B00AD573E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = placeholder1;
+				TargetAttributes = {
+					1ED00418218EB22B00AD573E = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1ED00414218EB22B00AD573E /* Build configuration list for PBXProject "fordimize-calhacks5" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ED00410218EB22B00AD573E;
+			productRefGroup = 1ED0041A218EB22B00AD573E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ED00418218EB22B00AD573E /* fordimize-calhacks5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ED00417218EB22B00AD573E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED00427218EB22B00AD573E /* LaunchScreen.storyboard in Resources */,
+				1E1E5A51218EC36700DE411A /* GoogleService-Info.plist in Resources */,
+				1ED00424218EB22B00AD573E /* Assets.xcassets in Resources */,
+				1ED00422218EB22B00AD573E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACB178F501A13DECA50A16FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-fordimize-calhacks5/Pods-fordimize-calhacks5-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BiSON/BiSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SmartDeviceLink/SmartDeviceLink.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BiSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SmartDeviceLink.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fordimize-calhacks5/Pods-fordimize-calhacks5-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E834EF1EF7E55A3CA1B6EC9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-fordimize-calhacks5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ED00415218EB22B00AD573E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ED0041F218EB22B00AD573E /* ViewController.swift in Sources */,
+				1E1E5A4F218EB4A100DE411A /* proxymanager.swift in Sources */,
+				1ED0041D218EB22B00AD573E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ED00420218EB22B00AD573E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED00421218EB22B00AD573E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ED00425218EB22B00AD573E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ED00426218EB22B00AD573E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ED00429218EB22B00AD573E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ED0042A218EB22B00AD573E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ED0042C218EB22B00AD573E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E2E36EED464A60BD7A41CF /* Pods-fordimize-calhacks5.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 684RYC4YX2;
+				INFOPLIST_FILE = "fordimize-calhacks5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sp.fordimize-calhacks5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1ED0042D218EB22B00AD573E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C99FFB213E38B9B1B056E8B7 /* Pods-fordimize-calhacks5.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 684RYC4YX2;
+				INFOPLIST_FILE = "fordimize-calhacks5/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sp.fordimize-calhacks5";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ED00414218EB22B00AD573E /* Build configuration list for PBXProject "fordimize-calhacks5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED00429218EB22B00AD573E /* Debug */,
+				1ED0042A218EB22B00AD573E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ED0042B218EB22B00AD573E /* Build configuration list for PBXNativeTarget "fordimize-calhacks5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ED0042C218EB22B00AD573E /* Debug */,
+				1ED0042D218EB22B00AD573E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1ED00411218EB22B00AD573E /* Project object */;
+}

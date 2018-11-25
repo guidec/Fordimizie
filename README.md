@@ -1,2 +1,2 @@
 # Fordimizie
-Use ford SDL to track driving statistics
+Ford onboard analytics tool using SDL
